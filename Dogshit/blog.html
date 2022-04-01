@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial- scale=1.0">
+    <title>This site's the shit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9214368c0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-headerr">
+        <nav>
+            <a href="video.html"><img src="images/dogshitlogo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="like.html">LIKE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+    <!---- Blog page content ----->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/shitnerd.png">
+                <h2>Nerd Turd</h2>
+                <p>Blah, blah blah blahh, bluh, blah blahh, blah, blah.</p>
+                <br>
+                <p>Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah.</p>
+                <br>
+                <p>Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah. Blah, blah blah blahh, bluh, blah blahh, blah, blah.</p>
+                <br>
+                <br>
+                <p>Live comment section coming soon once I learn how to use databases.</p>
+    
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn brown-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>I Dunno</h3>
+                <div>
+                    <span>Filler</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>More Filler</span>
+                    <span>69</span>
+                </div>
+                <div>
+                    <span>Buy Bitcoin</span>
+                    <span>100</span>
+                </div>
+                <div>
+                    <span>And Dickbutts</span>
+                    <span>420</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!---- Footer ----->
+
+    <section class="footer">
+        <h4>Dogshit Inc.</h4>
+        <p>Somebody please kill me</p>
+        <div class="icons">
+            <a href="dox.html">
+            <i class="fa fa-facebook"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-twitter"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-instagram"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-poo"></i> by Mike</p>
+    </section>
+
+    <!---- JavaScript for Toggle Menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

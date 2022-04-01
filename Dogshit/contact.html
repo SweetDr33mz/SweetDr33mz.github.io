@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial- scale=1.0">
+    <title>This site's the shit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9214368c0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="video.html"><img src="images/dogshitlogo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="like.html">LIKE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Dont Contact Me</h1>
+    </section>
+
+    <!---- Contact me content ---->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193010.17134906285!2d-74.2266969129169!3d40.898554399882656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f9ee582e9b0f%3A0x8a547007a055a02c!2sThe%20Harem%20Cabaret!5e0!3m2!1sen!2sus!4v1647827827751!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-me">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>69 Fake Road St.</h5>
+                        <p>YourMomsHouse, NJ</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 6969696969</h5>
+                        <p>Monday to Saturday, 6AM to 9PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>fake.email@dogshit.com</h5>
+                        <p>form to right will be working once I learn back-end.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter Your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn brown-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!---- Footer ----->
+
+    <section class="footer">
+        <h4>Dogshit Inc.</h4>
+        <p>Somebody please kill me</p>
+        <div class="icons">
+            <a href="dox.html">
+            <i class="fa fa-facebook"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-twitter"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-instagram"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-poo"></i> by Mike</p>
+    </section>
+
+    <!---- JavaScript for Toggle Menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
